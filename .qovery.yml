@@ -1,0 +1,11 @@
+---
+application:
+  name: "telegram-test"
+  project: "telegram-test"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-telegram-test"
+  routes:
+  - application_name: "telegram-test"
+    paths:
+    - "/*"
